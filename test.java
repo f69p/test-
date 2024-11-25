@@ -17,7 +17,7 @@ public class test {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 
             // Send "hi" message to the server
-            String message = "hi";
+            String message = "hello world";
             String date = "22/11/24";
             out.println(message);
             out.println(date);
